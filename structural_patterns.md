@@ -1,6 +1,6 @@
 # Лаба 4. Структурные паттерны проектирования
 
-##Proxy (прокси) 
+## Proxy (прокси) 
 ```Java
 public class Main {
     interface BankServer {
@@ -48,7 +48,7 @@ public class Main {
 ```
 
 
-##Adapter (адаптер)
+## Adapter (адаптер)
 ```Java
 public class Main {
     public interface Time24Hour {
@@ -139,7 +139,7 @@ public class Main {
 ```
 
 
-##Bridge (мост)
+## Bridge (мост)
 ```Java
 public class Main {
     static abstract class UserImpl {
