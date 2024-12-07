@@ -1,6 +1,6 @@
-# Лаба 3. Порождающие паттерны проектирования
+# Лаба 4. Поведенческие паттерны проектирования
 
-##Strategy (стратегия)
+## Strategy (стратегия)
 ```C#
 public interface ISortingStrategy
 {
@@ -55,7 +55,7 @@ public static void Main(string[] args)
 ```
 
 
-##Responsibility chain (цепочка обязанностей) 
+## Responsibility chain (цепочка обязанностей) 
 ```C#
 public interface IHandler
 {
@@ -139,7 +139,7 @@ public static void Main(string[] args)
 ```
 
 
-##Iterator (итератор)
+## Iterator (итератор)
 ```C#
 public interface IIterator<T>
 {
