@@ -187,7 +187,6 @@ public class Tplab7Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        // Пример использования
         Category electronics = categoryService.createCategory("Electronics");
         categoryService.createProduct("Laptop", 1000.0, electronics.getId());
         categoryService.createProduct("Smartphone", 500.0, electronics.getId());
